@@ -5,3 +5,7 @@ Los árboles de decisión son modelos de aprendizaje supervisado que realizan pr
 Son modelos intuitivos y fáciles de interpretar, pero tienden al sobreajuste cuando crecen demasiado. Para mitigar este problema se utilizan técnicas de poda y, especialmente, los métodos de ensamble.
 
 Random Forest es un ensamble de múltiples árboles de decisión entrenados sobre subconjuntos aleatorios de datos y características. La predicción final se obtiene por votación mayoritaria en clasificación o promediando en regresión. Este enfoque reduce significativamente la varianza y mejora la generalización del modelo.
+
+La elección de la mejor división en cada nodo se basa en métricas de pureza: la impureza de Gini mide la probabilidad de clasificar incorrectamente un elemento elegido al azar, mientras que la entropía cuantifica el desorden de la información. Árboles más profundos logran mayor precisión en entrenamiento pero pierden capacidad de generalización; la profundidad máxima es uno de los hiperparámetros más importantes a ajustar.
+
+Una ventaja clave de los árboles y Random Forest sobre las redes neuronales es la interpretabilidad: se puede trazar exactamente qué atributos influyeron en cada predicción, algo crucial en dominios regulados como crédito bancario o diagnóstico médico donde es necesario explicar las decisiones. Además, Random Forest maneja naturalmente datos mixtos (numéricos y categóricos), valores faltantes y requiere poco preprocesamiento, lo que lo convierte en una excelente primera opción para muchos problemas de machine learning.

@@ -5,3 +5,7 @@ El aprendizaje supervisado es una rama del machine learning donde el modelo se e
 En contraste, el aprendizaje no supervisado trabaja con datos sin etiquetar, buscando patrones ocultos, estructuras o agrupaciones naturales en los datos. Técnicas comunes son el clustering con K-means, el análisis de componentes principales para reducción de dimensionalidad, y los autoencoders.
 
 Existe también el aprendizaje semi-supervisado y por refuerzo, que ocupan posiciones intermedias en este espectro.
+
+Para evaluar qué tan bien funciona un modelo supervisado se utilizan métricas como exactitud, precisión, recall y F1-score. También es esencial la validación cruzada (cross-validation), que divide los datos en múltiples subconjuntos de entrenamiento y prueba para obtener una estimación robusta del rendimiento y evitar que una sola partición afortunada dé una falsa impresión de calidad.
+
+En el mundo real, el aprendizaje supervisado impulsa aplicaciones cotidianas: los filtros de spam en el correo electrónico, los sistemas de recomendación de plataformas como Netflix y Spotify, la detección de fraudes en transacciones bancarias y el diagnóstico asistido por imágenes médicas. Por su parte, el aprendizaje no supervisado brilla en tareas como segmentación de clientes para marketing, detección de anomalías en sistemas industriales y compresión de datos.

@@ -5,3 +5,7 @@ Las redes neuronales artificiales son modelos computacionales inspirados en el f
 Cada neurona recibe múltiples entradas, las pondera por sus pesos correspondientes, suma el resultado y aplica una función de activación no lineal como ReLU, sigmoide o tangente hiperbólica. El aprendizaje se produce mediante el ajuste iterativo de estos pesos utilizando algoritmos como el descenso de gradiente y la retropropagación del error.
 
 Las arquitecturas más comunes incluyen redes feedforward, redes convolucionales para procesamiento de imágenes, y redes recurrentes para datos secuenciales como texto o audio.
+
+El algoritmo de retropropagación (backpropagation) es el mecanismo clave que permite entrenar redes multicapa: calcula cómo cambia el error de salida respecto a cada peso de la red propagando el gradiente desde la capa de salida hacia atrás. Variantes modernas como Adam y RMSprop mejoran la convergencia ajustando dinámicamente la tasa de aprendizaje para cada parámetro.
+
+Un desafío central en el entrenamiento de redes neuronales es evitar el sobreajuste, donde el modelo memoriza los datos de entrenamiento pero no generaliza a casos nuevos. Técnicas como la regularización L1/L2, el dropout (que apaga aleatoriamente neuronas durante el entrenamiento) y la parada temprana son fundamentales para entrenar modelos que funcionen bien en producción y no solo en el laboratorio.

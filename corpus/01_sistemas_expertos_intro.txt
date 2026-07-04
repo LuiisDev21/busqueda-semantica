@@ -5,3 +5,7 @@ Un sistema experto es un programa de inteligencia artificial que emula el razona
 Los sistemas expertos se componen de tres elementos fundamentales: la base de conocimiento, que almacena hechos y reglas sobre el dominio; el motor de inferencia, que aplica razonamiento lógico para derivar conclusiones; y la interfaz de usuario, que permite la comunicación entre el sistema y el usuario final.
 
 Algunos ejemplos clásicos de sistemas expertos incluyen MYCIN para diagnóstico médico, DENDRAL para análisis químico y XCON para configuración de computadoras.
+
+MYCIN, desarrollado en Stanford durante los años 70, fue particularmente influyente: diagnosticaba infecciones bacterianas y recomendaba antibióticos con una precisión superior a la de médicos junior. Utilizaba alrededor de 600 reglas de producción y fue pionero en separar claramente la base de conocimiento del motor de inferencia, una arquitectura que sigue siendo referencia en el diseño de estos sistemas.
+
+A pesar de su éxito académico, los sistemas expertos clásicos mostraron limitaciones importantes: la adquisición de conocimiento era costosa y lenta (el llamado "cuello de botella del conocimiento"), no aprendían de la experiencia, y fallaban estrepitosamente fuera de su dominio específico. Estas limitaciones motivaron parcialmente el resurgimiento de las redes neuronales y el machine learning moderno, que aprenden patrones directamente desde los datos en lugar de depender de reglas programadas manualmente.

@@ -5,3 +5,7 @@ El deep learning o aprendizaje profundo es un subcampo del machine learning que 
 Las redes neuronales convolucionales (CNN) son la arquitectura dominante para visión por computadora. Utilizan capas de convolución que aplican filtros aprendibles sobre la entrada, capas de pooling para reducción de dimensionalidad, y capas totalmente conectadas para la clasificación final. Son especialmente efectivas porque explotan la estructura espacial local de las imágenes.
 
 Aplicaciones exitosas de deep learning incluyen reconocimiento facial, vehículos autónomos, diagnóstico médico por imagen y sistemas de recomendación.
+
+Una técnica que democratizó el deep learning es el transfer learning: en lugar de entrenar una CNN desde cero (lo que requiere millones de imágenes y semanas de cómputo), se parte de un modelo pre-entrenado como ResNet o EfficientNet y solo se reentrenan las últimas capas para la tarea específica. Esto permite obtener excelentes resultados con cientos de imágenes en lugar de millones y en minutos en vez de días.
+
+El entrenamiento de redes profundas se beneficia enormemente de innovaciones como batch normalization (que estabiliza y acelera la convergencia normalizando las activaciones entre capas), data augmentation (rotar, recortar o distorsionar imágenes para generar más datos de entrenamiento) y el uso de GPUs y TPUs para procesamiento paralelo masivo. Lo que antes tomaba meses en CPU ahora se completa en horas.

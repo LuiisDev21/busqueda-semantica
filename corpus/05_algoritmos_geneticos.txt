@@ -5,3 +5,7 @@ Los algoritmos genéticos son técnicas de optimización y búsqueda inspiradas 
 El proceso comienza con una población inicial de soluciones candidatas representadas como cromosomas. En cada generación, se evalúa la aptitud de cada individuo mediante una función de fitness. Los individuos más aptos se seleccionan para reproducirse mediante operadores de cruce y mutación, generando una nueva población que idealmente mejora la solución al problema.
 
 Estos algoritmos son particularmente útiles para problemas de optimización complejos donde los métodos tradicionales no son efectivos, como diseño de circuitos, scheduling y optimización de rutas.
+
+Existen varios métodos de selección de individuos: la selección por ruleta asigna probabilidades proporcionales al fitness, mientras que la selección por torneo elige aleatoriamente un subconjunto y toma al mejor, siendo más robusta frente a valores extremos. En cuanto al cruce, puede ser de un punto, dos puntos o uniforme, y la tasa de mutación típica es baja (1-5%) para mantener la estabilidad mientras se explora el espacio de soluciones.
+
+Un ejemplo fascinante de aplicación real es el diseño de antenas para satélites de la NASA mediante algoritmos genéticos, que produjeron formas inusuales pero altamente eficientes que ningún ingeniero humano habría concebido. También se usan para optimizar carteras de inversión financiera, entrenar redes neuronales (neuroevolución) y generar arte y música mediante creatividad computacional evolutiva.

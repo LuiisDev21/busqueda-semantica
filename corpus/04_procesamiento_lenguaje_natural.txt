@@ -5,3 +5,7 @@ El procesamiento del lenguaje natural es el campo de la inteligencia artificial 
 Las tareas fundamentales del NLP incluyen: tokenización (dividir texto en unidades), análisis morfológico y sintáctico, reconocimiento de entidades nombradas, análisis de sentimiento, traducción automática, resumen de texto y respuesta a preguntas.
 
 Los avances recientes con modelos transformer como BERT, GPT y T5 han revolucionado el campo, permitiendo que los sistemas capturen contexto bidireccional y generen texto coherente con una calidad sin precedentes.
+
+Antes de los transformers, las palabras se representaban mediante vectores estáticos con Word2Vec o GloVe, donde "banco" tenía siempre el mismo vector sin importar si se refería a una institución financiera o a un asiento de plaza. Uno de los grandes saltos cualitativos fue la llegada de los embeddings contextualizados, donde el significado de cada palabra se ajusta dinámicamente según las palabras que la rodean, resolviendo elegantemente el problema de la polisemia y la ambigüedad.
+
+El NLP moderno está presente en asistentes virtuales como Siri y Alexa, en traductores automáticos que funcionan para cientos de idiomas, en herramientas de accesibilidad que convierten texto a voz y viceversa, y en sistemas de análisis legal que procesan miles de contratos en minutos. También plantea desafíos éticos importantes como el sesgo en los modelos, la generación de desinformación y la privacidad de los datos de entrenamiento.

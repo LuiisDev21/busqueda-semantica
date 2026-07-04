@@ -5,3 +5,7 @@ El motor de inferencia es el componente central de un sistema experto, responsab
 Existen dos estrategias principales de inferencia: el encadenamiento hacia adelante, que parte de los hechos conocidos y aplica reglas para derivar nuevas conclusiones hasta alcanzar un objetivo; y el encadenamiento hacia atrás, que comienza con una hipótesis u objetivo y busca reglas y hechos que lo respalden.
 
 Los motores de inferencia modernos pueden manejar incertidumbre mediante factores de certeza, lógica difusa o redes bayesianas, permitiendo razonar con información incompleta o imprecisa.
+
+El algoritmo RETE, desarrollado por Charles Forgy en 1979, fue un avance crucial para la eficiencia de los motores de inferencia. En lugar de reevaluar todas las reglas en cada ciclo, RETE construye una red de nodos que almacenan coincidencias parciales y solo actualizan los cambios incrementales. Esto transformó los sistemas expertos de prototipos de laboratorio lentos a herramientas prácticas capaces de manejar cientos o miles de reglas en tiempo real.
+
+La resolución de conflictos es otro desafío clave: cuando múltiples reglas pueden activarse simultáneamente, ¿cuál se ejecuta primero? Estrategias comunes incluyen priorizar reglas más específicas sobre las generales, las más recientemente añadidas, o las que referencian los datos modificados más recientemente. La elección de la estrategia de resolución de conflictos puede alterar drásticamente el comportamiento del sistema y el orden en que se derivan las conclusiones.
