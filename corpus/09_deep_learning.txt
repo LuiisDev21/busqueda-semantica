@@ -1,0 +1,7 @@
+Deep Learning y Redes Convolucionales
+
+El deep learning o aprendizaje profundo es un subcampo del machine learning que utiliza redes neuronales con múltiples capas ocultas para aprender representaciones jerárquicas de los datos. A diferencia de los métodos tradicionales que requieren extracción manual de características, las redes profundas aprenden automáticamente características cada vez más abstractas en cada capa.
+
+Las redes neuronales convolucionales (CNN) son la arquitectura dominante para visión por computadora. Utilizan capas de convolución que aplican filtros aprendibles sobre la entrada, capas de pooling para reducción de dimensionalidad, y capas totalmente conectadas para la clasificación final. Son especialmente efectivas porque explotan la estructura espacial local de las imágenes.
+
+Aplicaciones exitosas de deep learning incluyen reconocimiento facial, vehículos autónomos, diagnóstico médico por imagen y sistemas de recomendación.

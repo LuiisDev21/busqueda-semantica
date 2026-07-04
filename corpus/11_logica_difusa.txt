@@ -1,0 +1,7 @@
+Lógica Difusa y Razonamiento Aproximado
+
+La lógica difusa, introducida por Lotfi Zadeh en 1965, extiende la lógica booleana clásica para manejar el concepto de verdad parcial. Mientras que en la lógica tradicional una proposición es verdadera o falsa, en la lógica difusa puede tener un grado de verdad entre 0 y 1.
+
+Los sistemas de lógica difusa se componen de tres etapas: fuzzificación, donde las entradas numéricas se convierten en grados de pertenencia a conjuntos difusos; inferencia, donde se aplican reglas difusas del tipo SI-ENTONCES; y defuzzificación, donde el resultado difuso se convierte nuevamente en un valor numérico concreto.
+
+Esta técnica es ampliamente utilizada en sistemas de control industrial, electrodomésticos inteligentes, frenos ABS, y sistemas expertos que necesitan manejar conceptos vagos o imprecisos como "temperatura alta" o "velocidad moderada".

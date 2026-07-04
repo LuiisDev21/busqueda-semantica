@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "titulo": "Introducción a los Sistemas Expertos",
+    "archivo": "corpus\\01_sistemas_expertos_intro.txt",
+    "texto": "Introducción a los Sistemas Expertos\n\nUn sistema experto es un programa de inteligencia artificial que emula el razonamiento de un especialista humano en un dominio específico. Estos sistemas utilizan una base de conocimiento y un motor de inferencia para resolver problemas complejos que normalmente requerirían la intervención de un experto humano.\n\nLos sistemas expertos se componen de tres elementos fundamentales: la base de conocimiento, que almacena hechos y reglas sobre el dominio; el motor de inferencia, que aplica razonamiento lógico para derivar conclusiones; y la interfaz de usuario, que permite la comunicación entre el sistema y el usuario final.\n\nAlgunos ejemplos clásicos de sistemas expertos incluyen MYCIN para diagnóstico médico, DENDRAL para análisis químico y XCON para configuración de computadoras."
+  },
+  {
+    "id": 1,
+    "titulo": "Redes Neuronales Artificiales: Fundamentos",
+    "archivo": "corpus\\02_redes_neuronales.txt",
+    "texto": "Redes Neuronales Artificiales: Fundamentos\n\nLas redes neuronales artificiales son modelos computacionales inspirados en el funcionamiento del cerebro biológico. Están compuestas por unidades elementales llamadas neuronas artificiales o perceptrones, organizadas en capas interconectadas mediante pesos sinápticos.\n\nCada neurona recibe múltiples entradas, las pondera por sus pesos correspondientes, suma el resultado y aplica una función de activación no lineal como ReLU, sigmoide o tangente hiperbólica. El aprendizaje se produce mediante el ajuste iterativo de estos pesos utilizando algoritmos como el descenso de gradiente y la retropropagación del error.\n\nLas arquitecturas más comunes incluyen redes feedforward, redes convolucionales para procesamiento de imágenes, y redes recurrentes para datos secuenciales como texto o audio."
+  },
+  {
+    "id": 2,
+    "titulo": "Aprendizaje Supervisado y No Supervisado",
+    "archivo": "corpus\\03_aprendizaje_supervisado.txt",
+    "texto": "Aprendizaje Supervisado y No Supervisado\n\nEl aprendizaje supervisado es una rama del machine learning donde el modelo se entrena con datos etiquetados. Cada ejemplo de entrenamiento consiste en un par entrada-salida, y el objetivo es aprender una función que mapee correctamente nuevas entradas a sus salidas correspondientes. Algoritmos populares incluyen regresión lineal, árboles de decisión, máquinas de soporte vectorial y redes neuronales.\n\nEn contraste, el aprendizaje no supervisado trabaja con datos sin etiquetar, buscando patrones ocultos, estructuras o agrupaciones naturales en los datos. Técnicas comunes son el clustering con K-means, el análisis de componentes principales para reducción de dimensionalidad, y los autoencoders.\n\nExiste también el aprendizaje semi-supervisado y por refuerzo, que ocupan posiciones intermedias en este espectro."
+  },
+  {
+    "id": 3,
+    "titulo": "Procesamiento del Lenguaje Natural (NLP)",
+    "archivo": "corpus\\04_procesamiento_lenguaje_natural.txt",
+    "texto": "Procesamiento del Lenguaje Natural (NLP)\n\nEl procesamiento del lenguaje natural es el campo de la inteligencia artificial que estudia la interacción entre computadoras y el lenguaje humano. Su objetivo es permitir que las máquinas comprendan, interpreten y generen texto de manera similar a como lo hacen los humanos.\n\nLas tareas fundamentales del NLP incluyen: tokenización (dividir texto en unidades), análisis morfológico y sintáctico, reconocimiento de entidades nombradas, análisis de sentimiento, traducción automática, resumen de texto y respuesta a preguntas.\n\nLos avances recientes con modelos transformer como BERT, GPT y T5 han revolucionado el campo, permitiendo que los sistemas capturen contexto bidireccional y generen texto coherente con una calidad sin precedentes."
+  },
+  {
+    "id": 4,
+    "titulo": "Algoritmos Genéticos y Computación Evolutiva",
+    "archivo": "corpus\\05_algoritmos_geneticos.txt",
+    "texto": "Algoritmos Genéticos y Computación Evolutiva\n\nLos algoritmos genéticos son técnicas de optimización y búsqueda inspiradas en los principios de la evolución biológica y la selección natural. Fueron introducidos por John Holland en la década de 1970 y forman parte del campo más amplio de la computación evolutiva.\n\nEl proceso comienza con una población inicial de soluciones candidatas representadas como cromosomas. En cada generación, se evalúa la aptitud de cada individuo mediante una función de fitness. Los individuos más aptos se seleccionan para reproducirse mediante operadores de cruce y mutación, generando una nueva población que idealmente mejora la solución al problema.\n\nEstos algoritmos son particularmente útiles para problemas de optimización complejos donde los métodos tradicionales no son efectivos, como diseño de circuitos, scheduling y optimización de rutas."
+  },
+  {
+    "id": 5,
+    "titulo": "Embeddings y Representación Vectorial de Texto",
+    "archivo": "corpus\\06_embeddings_vectoriales.txt",
+    "texto": "Embeddings y Representación Vectorial de Texto\n\nLos embeddings son representaciones vectoriales densas de palabras, frases o documentos completos en un espacio continuo de baja dimensionalidad. A diferencia de las representaciones one-hot o bag-of-words, los embeddings capturan relaciones semánticas: palabras con significados similares tienen vectores cercanos en el espacio.\n\nLos modelos más utilizados para generar embeddings incluyen Word2Vec, GloVe, FastText y los más modernos basados en transformers como BERT y Sentence-BERT. Estos últimos generan embeddings contextualizados, donde el vector de una palabra depende de las palabras que la rodean en la oración.\n\nLas aplicaciones de los embeddings son vastas: búsqueda semántica, sistemas de recomendación, clasificación de texto, detección de plagio, agrupamiento de documentos similares y traducción automática, entre muchas otras."
+  },
+  {
+    "id": 6,
+    "titulo": "Árboles de Decisión y Random Forest",
+    "archivo": "corpus\\07_arboles_decision.txt",
+    "texto": "Árboles de Decisión y Random Forest\n\nLos árboles de decisión son modelos de aprendizaje supervisado que realizan predicciones mediante una estructura jerárquica de decisiones binarias. Cada nodo interno representa una prueba sobre un atributo, cada rama el resultado de dicha prueba, y cada hoja una predicción o clasificación final.\n\nSon modelos intuitivos y fáciles de interpretar, pero tienden al sobreajuste cuando crecen demasiado. Para mitigar este problema se utilizan técnicas de poda y, especialmente, los métodos de ensamble.\n\nRandom Forest es un ensamble de múltiples árboles de decisión entrenados sobre subconjuntos aleatorios de datos y características. La predicción final se obtiene por votación mayoritaria en clasificación o promediando en regresión. Este enfoque reduce significativamente la varianza y mejora la generalización del modelo."
+  },
+  {
+    "id": 7,
+    "titulo": "Motores de Inferencia en Sistemas Expertos",
+    "archivo": "corpus\\08_motores_inferencia.txt",
+    "texto": "Motores de Inferencia en Sistemas Expertos\n\nEl motor de inferencia es el componente central de un sistema experto, responsable de aplicar razonamiento lógico sobre la base de conocimiento para derivar nuevas conclusiones o responder consultas del usuario.\n\nExisten dos estrategias principales de inferencia: el encadenamiento hacia adelante, que parte de los hechos conocidos y aplica reglas para derivar nuevas conclusiones hasta alcanzar un objetivo; y el encadenamiento hacia atrás, que comienza con una hipótesis u objetivo y busca reglas y hechos que lo respalden.\n\nLos motores de inferencia modernos pueden manejar incertidumbre mediante factores de certeza, lógica difusa o redes bayesianas, permitiendo razonar con información incompleta o imprecisa."
+  },
+  {
+    "id": 8,
+    "titulo": "Deep Learning y Redes Convolucionales",
+    "archivo": "corpus\\09_deep_learning.txt",
+    "texto": "Deep Learning y Redes Convolucionales\n\nEl deep learning o aprendizaje profundo es un subcampo del machine learning que utiliza redes neuronales con múltiples capas ocultas para aprender representaciones jerárquicas de los datos. A diferencia de los métodos tradicionales que requieren extracción manual de características, las redes profundas aprenden automáticamente características cada vez más abstractas en cada capa.\n\nLas redes neuronales convolucionales (CNN) son la arquitectura dominante para visión por computadora. Utilizan capas de convolución que aplican filtros aprendibles sobre la entrada, capas de pooling para reducción de dimensionalidad, y capas totalmente conectadas para la clasificación final. Son especialmente efectivas porque explotan la estructura espacial local de las imágenes.\n\nAplicaciones exitosas de deep learning incluyen reconocimiento facial, vehículos autónomos, diagnóstico médico por imagen y sistemas de recomendación."
+  },
+  {
+    "id": 9,
+    "titulo": "Búsqueda Semántica con Vectores",
+    "archivo": "corpus\\10_busqueda_semantica.txt",
+    "texto": "Búsqueda Semántica con Vectores\n\nLa búsqueda semántica representa un paradigma fundamentalmente diferente a la búsqueda tradicional por palabras clave. En lugar de buscar coincidencias léxicas exactas entre la consulta y los documentos, la búsqueda semántica proyecta tanto la consulta como los documentos a un espacio vectorial de embeddings donde la proximidad indica similitud de significado.\n\nEl proceso implica tres etapas: primero, se genera un embedding vectorial para cada documento del corpus utilizando un modelo de lenguaje pre-entrenado. Segundo, estos vectores se almacenan en un índice que permite búsqueda eficiente por vecinos más cercanos. Tercero, cuando llega una consulta, se genera su embedding y se recuperan los documentos cuyos vectores son más similares según alguna métrica de distancia, típicamente la similitud coseno.\n\nEste enfoque permite encontrar documentos relevantes incluso cuando no comparten ninguna palabra con la consulta, capturando relaciones conceptuales y sinónimos."
+  },
+  {
+    "id": 10,
+    "titulo": "Lógica Difusa y Razonamiento Aproximado",
+    "archivo": "corpus\\11_logica_difusa.txt",
+    "texto": "Lógica Difusa y Razonamiento Aproximado\n\nLa lógica difusa, introducida por Lotfi Zadeh en 1965, extiende la lógica booleana clásica para manejar el concepto de verdad parcial. Mientras que en la lógica tradicional una proposición es verdadera o falsa, en la lógica difusa puede tener un grado de verdad entre 0 y 1.\n\nLos sistemas de lógica difusa se componen de tres etapas: fuzzificación, donde las entradas numéricas se convierten en grados de pertenencia a conjuntos difusos; inferencia, donde se aplican reglas difusas del tipo SI-ENTONCES; y defuzzificación, donde el resultado difuso se convierte nuevamente en un valor numérico concreto.\n\nEsta técnica es ampliamente utilizada en sistemas de control industrial, electrodomésticos inteligentes, frenos ABS, y sistemas expertos que necesitan manejar conceptos vagos o imprecisos como \"temperatura alta\" o \"velocidad moderada\"."
+  },
+  {
+    "id": 11,
+    "titulo": "Máquinas de Soporte Vectorial (SVM)",
+    "archivo": "corpus\\12_maquinas_soporte_vectorial.txt",
+    "texto": "Máquinas de Soporte Vectorial (SVM)\n\nLas máquinas de soporte vectorial son modelos de aprendizaje supervisado utilizados principalmente para clasificación y regresión. El principio fundamental de las SVM es encontrar el hiperplano óptimo que separa las clases con el máximo margen posible, donde el margen es la distancia entre el hiperplano y los puntos más cercanos de cada clase, llamados vectores de soporte.\n\nPara problemas no linealmente separables, las SVM utilizan el truco del kernel: una función que proyecta implícitamente los datos a un espacio de mayor dimensionalidad donde sí son linealmente separables. Los kernels más comunes son el lineal, polinomial, RBF (función de base radial) y sigmoide.\n\nLas SVM son especialmente efectivas en espacios de alta dimensionalidad y con conjuntos de datos donde el número de características excede al número de muestras, como en clasificación de texto y bioinformática."
+  },
+  {
+    "id": 12,
+    "titulo": "Representación del Conocimiento en IA",
+    "archivo": "corpus\\13_representacion_conocimiento.txt",
+    "texto": "Representación del Conocimiento en IA\n\nLa representación del conocimiento es un área fundamental de la inteligencia artificial que estudia cómo almacenar y manipular información sobre el mundo de manera que un sistema computacional pueda utilizarla para resolver tareas complejas.\n\nLas principales formas de representación incluyen: redes semánticas, que modelan conceptos como nodos y relaciones como arcos; marcos o frames, que agrupan atributos y valores sobre un concepto; lógica de primer orden, que permite expresar hechos y reglas con cuantificadores; y ontologías, que definen vocabularios formales compartidos para un dominio específico.\n\nLa elección de la representación adecuada tiene profundas implicaciones en la eficiencia del razonamiento y la capacidad del sistema para manejar distintos tipos de conocimiento, desde hechos concretos hasta reglas abstractas y metaconocimiento."
+  },
+  {
+    "id": 13,
+    "titulo": "Transformers y el Modelo de Atención",
+    "archivo": "corpus\\14_transformers_atencion.txt",
+    "texto": "Transformers y el Modelo de Atención\n\nLa arquitectura transformer, presentada en el paper \"Attention Is All You Need\" de Vaswani et al. en 2017, revolucionó el procesamiento del lenguaje natural al reemplazar las redes recurrentes por un mecanismo puramente basado en atención.\n\nEl componente clave es la autoatención multi-cabeza, que permite que cada token en una secuencia atienda a todos los demás tokens simultáneamente, capturando dependencias de largo alcance sin la limitación secuencial de las RNN. Esto permite un procesamiento masivamente paralelo y un entrenamiento más eficiente.\n\nLos transformers forman la base de los modelos de lenguaje modernos: BERT utiliza solo el encoder para tareas de comprensión, GPT utiliza solo el decoder para generación de texto, y T5 utiliza ambos para tareas de secuencia a secuencia. Modelos como LLaMA, Claude y GPT-4 han escalado esta arquitectura a cientos de miles de millones de parámetros."
+  },
+  {
+    "id": 14,
+    "titulo": "Aprendizaje por Refuerzo",
+    "archivo": "corpus\\15_aprendizaje_refuerzo.txt",
+    "texto": "Aprendizaje por Refuerzo\n\nEl aprendizaje por refuerzo es un paradigma de machine learning donde un agente aprende a tomar decisiones interactuando con un entorno. A diferencia del aprendizaje supervisado, no se proporcionan ejemplos etiquetados de acciones correctas; en su lugar, el agente recibe recompensas o penalizaciones según las consecuencias de sus acciones.\n\nEl problema se modela como un Proceso de Decisión de Markov (MDP), con estados, acciones, una función de transición y una función de recompensa. El objetivo del agente es aprender una política que maximice la recompensa acumulada a largo plazo.\n\nAlgoritmos emblemáticos incluyen Q-Learning, SARSA, Deep Q-Networks (DQN) que combinan Q-Learning con redes neuronales profundas, y métodos de política como Policy Gradients y Proximal Policy Optimization (PPO). El aprendizaje por refuerzo ha logrado hitos impresionantes como AlphaGo y el control de robots."
+  }
+]

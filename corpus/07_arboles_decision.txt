@@ -1,0 +1,7 @@
+Árboles de Decisión y Random Forest
+
+Los árboles de decisión son modelos de aprendizaje supervisado que realizan predicciones mediante una estructura jerárquica de decisiones binarias. Cada nodo interno representa una prueba sobre un atributo, cada rama el resultado de dicha prueba, y cada hoja una predicción o clasificación final.
+
+Son modelos intuitivos y fáciles de interpretar, pero tienden al sobreajuste cuando crecen demasiado. Para mitigar este problema se utilizan técnicas de poda y, especialmente, los métodos de ensamble.
+
+Random Forest es un ensamble de múltiples árboles de decisión entrenados sobre subconjuntos aleatorios de datos y características. La predicción final se obtiene por votación mayoritaria en clasificación o promediando en regresión. Este enfoque reduce significativamente la varianza y mejora la generalización del modelo.

@@ -1,0 +1,7 @@
+Algoritmos Genéticos y Computación Evolutiva
+
+Los algoritmos genéticos son técnicas de optimización y búsqueda inspiradas en los principios de la evolución biológica y la selección natural. Fueron introducidos por John Holland en la década de 1970 y forman parte del campo más amplio de la computación evolutiva.
+
+El proceso comienza con una población inicial de soluciones candidatas representadas como cromosomas. En cada generación, se evalúa la aptitud de cada individuo mediante una función de fitness. Los individuos más aptos se seleccionan para reproducirse mediante operadores de cruce y mutación, generando una nueva población que idealmente mejora la solución al problema.
+
+Estos algoritmos son particularmente útiles para problemas de optimización complejos donde los métodos tradicionales no son efectivos, como diseño de circuitos, scheduling y optimización de rutas.

@@ -1,0 +1,7 @@
+Aprendizaje por Refuerzo
+
+El aprendizaje por refuerzo es un paradigma de machine learning donde un agente aprende a tomar decisiones interactuando con un entorno. A diferencia del aprendizaje supervisado, no se proporcionan ejemplos etiquetados de acciones correctas; en su lugar, el agente recibe recompensas o penalizaciones según las consecuencias de sus acciones.
+
+El problema se modela como un Proceso de Decisión de Markov (MDP), con estados, acciones, una función de transición y una función de recompensa. El objetivo del agente es aprender una política que maximice la recompensa acumulada a largo plazo.
+
+Algoritmos emblemáticos incluyen Q-Learning, SARSA, Deep Q-Networks (DQN) que combinan Q-Learning con redes neuronales profundas, y métodos de política como Policy Gradients y Proximal Policy Optimization (PPO). El aprendizaje por refuerzo ha logrado hitos impresionantes como AlphaGo y el control de robots.

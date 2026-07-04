@@ -1,0 +1,7 @@
+Aprendizaje Supervisado y No Supervisado
+
+El aprendizaje supervisado es una rama del machine learning donde el modelo se entrena con datos etiquetados. Cada ejemplo de entrenamiento consiste en un par entrada-salida, y el objetivo es aprender una función que mapee correctamente nuevas entradas a sus salidas correspondientes. Algoritmos populares incluyen regresión lineal, árboles de decisión, máquinas de soporte vectorial y redes neuronales.
+
+En contraste, el aprendizaje no supervisado trabaja con datos sin etiquetar, buscando patrones ocultos, estructuras o agrupaciones naturales en los datos. Técnicas comunes son el clustering con K-means, el análisis de componentes principales para reducción de dimensionalidad, y los autoencoders.
+
+Existe también el aprendizaje semi-supervisado y por refuerzo, que ocupan posiciones intermedias en este espectro.

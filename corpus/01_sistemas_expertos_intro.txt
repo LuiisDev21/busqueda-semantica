@@ -1,0 +1,7 @@
+Introducción a los Sistemas Expertos
+
+Un sistema experto es un programa de inteligencia artificial que emula el razonamiento de un especialista humano en un dominio específico. Estos sistemas utilizan una base de conocimiento y un motor de inferencia para resolver problemas complejos que normalmente requerirían la intervención de un experto humano.
+
+Los sistemas expertos se componen de tres elementos fundamentales: la base de conocimiento, que almacena hechos y reglas sobre el dominio; el motor de inferencia, que aplica razonamiento lógico para derivar conclusiones; y la interfaz de usuario, que permite la comunicación entre el sistema y el usuario final.
+
+Algunos ejemplos clásicos de sistemas expertos incluyen MYCIN para diagnóstico médico, DENDRAL para análisis químico y XCON para configuración de computadoras.

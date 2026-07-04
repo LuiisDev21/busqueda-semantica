@@ -1,0 +1,7 @@
+Embeddings y Representación Vectorial de Texto
+
+Los embeddings son representaciones vectoriales densas de palabras, frases o documentos completos en un espacio continuo de baja dimensionalidad. A diferencia de las representaciones one-hot o bag-of-words, los embeddings capturan relaciones semánticas: palabras con significados similares tienen vectores cercanos en el espacio.
+
+Los modelos más utilizados para generar embeddings incluyen Word2Vec, GloVe, FastText y los más modernos basados en transformers como BERT y Sentence-BERT. Estos últimos generan embeddings contextualizados, donde el vector de una palabra depende de las palabras que la rodean en la oración.
+
+Las aplicaciones de los embeddings son vastas: búsqueda semántica, sistemas de recomendación, clasificación de texto, detección de plagio, agrupamiento de documentos similares y traducción automática, entre muchas otras.

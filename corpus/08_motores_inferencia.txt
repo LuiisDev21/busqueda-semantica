@@ -1,0 +1,7 @@
+Motores de Inferencia en Sistemas Expertos
+
+El motor de inferencia es el componente central de un sistema experto, responsable de aplicar razonamiento lógico sobre la base de conocimiento para derivar nuevas conclusiones o responder consultas del usuario.
+
+Existen dos estrategias principales de inferencia: el encadenamiento hacia adelante, que parte de los hechos conocidos y aplica reglas para derivar nuevas conclusiones hasta alcanzar un objetivo; y el encadenamiento hacia atrás, que comienza con una hipótesis u objetivo y busca reglas y hechos que lo respalden.
+
+Los motores de inferencia modernos pueden manejar incertidumbre mediante factores de certeza, lógica difusa o redes bayesianas, permitiendo razonar con información incompleta o imprecisa.

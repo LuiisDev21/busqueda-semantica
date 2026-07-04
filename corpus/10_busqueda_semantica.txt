@@ -1,0 +1,7 @@
+Búsqueda Semántica con Vectores
+
+La búsqueda semántica representa un paradigma fundamentalmente diferente a la búsqueda tradicional por palabras clave. En lugar de buscar coincidencias léxicas exactas entre la consulta y los documentos, la búsqueda semántica proyecta tanto la consulta como los documentos a un espacio vectorial de embeddings donde la proximidad indica similitud de significado.
+
+El proceso implica tres etapas: primero, se genera un embedding vectorial para cada documento del corpus utilizando un modelo de lenguaje pre-entrenado. Segundo, estos vectores se almacenan en un índice que permite búsqueda eficiente por vecinos más cercanos. Tercero, cuando llega una consulta, se genera su embedding y se recuperan los documentos cuyos vectores son más similares según alguna métrica de distancia, típicamente la similitud coseno.
+
+Este enfoque permite encontrar documentos relevantes incluso cuando no comparten ninguna palabra con la consulta, capturando relaciones conceptuales y sinónimos.

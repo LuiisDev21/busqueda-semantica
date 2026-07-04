@@ -1,0 +1,7 @@
+Máquinas de Soporte Vectorial (SVM)
+
+Las máquinas de soporte vectorial son modelos de aprendizaje supervisado utilizados principalmente para clasificación y regresión. El principio fundamental de las SVM es encontrar el hiperplano óptimo que separa las clases con el máximo margen posible, donde el margen es la distancia entre el hiperplano y los puntos más cercanos de cada clase, llamados vectores de soporte.
+
+Para problemas no linealmente separables, las SVM utilizan el truco del kernel: una función que proyecta implícitamente los datos a un espacio de mayor dimensionalidad donde sí son linealmente separables. Los kernels más comunes son el lineal, polinomial, RBF (función de base radial) y sigmoide.
+
+Las SVM son especialmente efectivas en espacios de alta dimensionalidad y con conjuntos de datos donde el número de características excede al número de muestras, como en clasificación de texto y bioinformática.

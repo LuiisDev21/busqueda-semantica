@@ -1,0 +1,7 @@
+Procesamiento del Lenguaje Natural (NLP)
+
+El procesamiento del lenguaje natural es el campo de la inteligencia artificial que estudia la interacción entre computadoras y el lenguaje humano. Su objetivo es permitir que las máquinas comprendan, interpreten y generen texto de manera similar a como lo hacen los humanos.
+
+Las tareas fundamentales del NLP incluyen: tokenización (dividir texto en unidades), análisis morfológico y sintáctico, reconocimiento de entidades nombradas, análisis de sentimiento, traducción automática, resumen de texto y respuesta a preguntas.
+
+Los avances recientes con modelos transformer como BERT, GPT y T5 han revolucionado el campo, permitiendo que los sistemas capturen contexto bidireccional y generen texto coherente con una calidad sin precedentes.

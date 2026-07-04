@@ -1,0 +1,7 @@
+Representación del Conocimiento en IA
+
+La representación del conocimiento es un área fundamental de la inteligencia artificial que estudia cómo almacenar y manipular información sobre el mundo de manera que un sistema computacional pueda utilizarla para resolver tareas complejas.
+
+Las principales formas de representación incluyen: redes semánticas, que modelan conceptos como nodos y relaciones como arcos; marcos o frames, que agrupan atributos y valores sobre un concepto; lógica de primer orden, que permite expresar hechos y reglas con cuantificadores; y ontologías, que definen vocabularios formales compartidos para un dominio específico.
+
+La elección de la representación adecuada tiene profundas implicaciones en la eficiencia del razonamiento y la capacidad del sistema para manejar distintos tipos de conocimiento, desde hechos concretos hasta reglas abstractas y metaconocimiento.

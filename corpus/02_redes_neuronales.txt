@@ -1,0 +1,7 @@
+Redes Neuronales Artificiales: Fundamentos
+
+Las redes neuronales artificiales son modelos computacionales inspirados en el funcionamiento del cerebro biológico. Están compuestas por unidades elementales llamadas neuronas artificiales o perceptrones, organizadas en capas interconectadas mediante pesos sinápticos.
+
+Cada neurona recibe múltiples entradas, las pondera por sus pesos correspondientes, suma el resultado y aplica una función de activación no lineal como ReLU, sigmoide o tangente hiperbólica. El aprendizaje se produce mediante el ajuste iterativo de estos pesos utilizando algoritmos como el descenso de gradiente y la retropropagación del error.
+
+Las arquitecturas más comunes incluyen redes feedforward, redes convolucionales para procesamiento de imágenes, y redes recurrentes para datos secuenciales como texto o audio.
